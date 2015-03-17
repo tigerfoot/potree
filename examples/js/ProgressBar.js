@@ -29,6 +29,7 @@ function ProgressBar(){
 	this.element.style.textAlign = "center";
 	this.element.style.backgroundColor = "#000066";
 	this.element.style.opacity = this.maxOpacity;
+	this.element.style.pointerEvents = "none";
 	
 	this.elProgress.innerHTML = " ";
 	this.elProgress.style.backgroundColor = "#006699";
