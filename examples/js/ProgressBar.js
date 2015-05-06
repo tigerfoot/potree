@@ -15,9 +15,9 @@ function ProgressBar(){
 	
 	this.element.innerHTML = "";
 	this.element.style.position = "fixed";
-	this.element.style.bottom = "68px";
-	this.element.style.width = "200px";
-	this.element.style.marginLeft = "-100px";
+	this.element.style.bottom = "34px";
+	this.element.style.width = "300px";
+	this.element.style.marginLeft = "-150px";
 	this.element.style.left = "50%";
 	this.element.style.borderRadius = "5px";
 	this.element.style.border = "1px solid #ffff66";
@@ -27,12 +27,12 @@ function ProgressBar(){
 	this.element.style.fontWeight = "700";
 	this.element.style.padding = "1px";
 	this.element.style.textAlign = "center";
-	this.element.style.backgroundColor = "#000066";
+	this.element.style.backgroundColor = "#007cb0";
 	this.element.style.opacity = this.maxOpacity;
 	this.element.style.pointerEvents = "none";
 	
 	this.elProgress.innerHTML = " ";
-	this.elProgress.style.backgroundColor = "#006699";
+	this.elProgress.style.backgroundColor = "#00A9EF";
 	this.elProgress.style.position = "absolute";
 	this.elProgress.style.borderRadius = "5px";
 	this.elProgress.style.width = "0%";
